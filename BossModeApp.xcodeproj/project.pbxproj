@@ -14,6 +14,7 @@
 		BD3263AC286C966700FABB56 /* BossModeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD3263AA286C966700FABB56 /* BossModeApp.xcdatamodeld */; };
 		BD3263AE286C966A00FABB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3263AD286C966A00FABB56 /* Assets.xcassets */; };
 		BD3263B1286C966A00FABB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3263AF286C966A00FABB56 /* LaunchScreen.storyboard */; };
+		BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD3263AD286C966A00FABB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3263B0286C966A00FABB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3263B2286C966A00FABB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToReadTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BD3263A1286C966700FABB56 /* AppDelegate.swift */,
 				BD3263A3286C966700FABB56 /* SceneDelegate.swift */,
 				BD3263A5286C966700FABB56 /* ViewController.swift */,
+				BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */,
 				BD3263A7286C966700FABB56 /* Main.storyboard */,
 				BD3263AD286C966A00FABB56 /* Assets.xcassets */,
 				BD3263AF286C966A00FABB56 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3263A6286C966700FABB56 /* ViewController.swift in Sources */,
+				BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */,
 				BD3263AC286C966700FABB56 /* BossModeApp.xcdatamodeld in Sources */,
 				BD3263A2286C966700FABB56 /* AppDelegate.swift in Sources */,
 				BD3263A4286C966700FABB56 /* SceneDelegate.swift in Sources */,
