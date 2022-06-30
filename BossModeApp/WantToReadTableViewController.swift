@@ -9,8 +9,20 @@ import UIKit
 
 class WantToReadTableViewController: UITableViewController {
     fileprivate let cellID = "cellID"
-    fileprivate var items = ["hello", "okay"]
+    //fileprivate var items = [" "]
+    var items : [Reading] = []
     @IBOutlet var WantToReadTable: UITableView!
+    
+    func createBook() -> [Reading] {
+
+      let swift = Reading()
+      swift.name = "This is where your books will appear!"
+      
+      // important is set to false by default
+
+      return [swift]
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +53,7 @@ class WantToReadTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         let cell =
         tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath)
-        cell.textLabel?.text = items[indexPath.row]
+        cell.textLabel?.text = items[indexPath.row].name
         
         cell.textLabel?.textColor = .red
 
@@ -61,7 +73,11 @@ class WantToReadTableViewController: UITableViewController {
         }
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if let addVC = segue.destination as? AddToReadViewController {
+        addVC.previousVC = self
+      }
+    }
  
     
 //    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {

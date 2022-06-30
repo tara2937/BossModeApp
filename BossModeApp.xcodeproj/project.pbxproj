@@ -15,6 +15,8 @@
 		BD3263AE286C966A00FABB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3263AD286C966A00FABB56 /* Assets.xcassets */; };
 		BD3263B1286C966A00FABB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3263AF286C966A00FABB56 /* LaunchScreen.storyboard */; };
 		BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */; };
+		BDEF2081286DE69300BF37B8 /* AddToReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */; };
+		BDEF2083286DE97500BF37B8 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2082286DE97500BF37B8 /* Reading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BD3263B0286C966A00FABB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3263B2286C966A00FABB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToReadTableViewController.swift; sourceTree = "<group>"; };
+		BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToReadViewController.swift; sourceTree = "<group>"; };
+		BDEF2082286DE97500BF37B8 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		BD326395286C966700FABB56 = {
 			isa = PBXGroup;
 			children = (
+				BDEF2082286DE97500BF37B8 /* Reading.swift */,
+				BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */,
 				BD3263A0286C966700FABB56 /* BossModeApp */,
 				BD32639F286C966700FABB56 /* Products */,
 			);
@@ -145,10 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3263A6286C966700FABB56 /* ViewController.swift in Sources */,
+				BDEF2083286DE97500BF37B8 /* Reading.swift in Sources */,
 				BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */,
 				BD3263AC286C966700FABB56 /* BossModeApp.xcdatamodeld in Sources */,
 				BD3263A2286C966700FABB56 /* AppDelegate.swift in Sources */,
 				BD3263A4286C966700FABB56 /* SceneDelegate.swift in Sources */,
+				BDEF2081286DE69300BF37B8 /* AddToReadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

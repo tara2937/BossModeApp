@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1435" y="743"/>
         </scene>
-        <!--View Controller-->
+        <!--Add To Read View Controller-->
         <scene sceneID="Mv2-ns-3Jt">
             <objects>
-                <viewController id="h3g-q2-8af" sceneMemberID="viewController">
+                <viewController id="h3g-q2-8af" customClass="AddToReadViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GG0-w7-x71">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,12 +142,18 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="add book">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addTapped:" destination="h3g-q2-8af" eventType="touchUpInside" id="ovZ-Qy-cyK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rkg-J2-F99"/>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.90980392156862744" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="BBY-Qj-ILV"/>
+                    <connections>
+                        <outlet property="titleTextField" destination="eZr-2b-oyo" id="2zb-kw-7ys"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXl-sb-JAf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
