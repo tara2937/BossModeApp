@@ -269,10 +269,11 @@
                         <viewLayoutGuide key="safeArea" id="HGs-vO-dKH"/>
                         <color key="backgroundColor" red="0.95686274770000002" green="0.9098039269" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6ti-8Z-CU2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEo-qw-6Ax" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1442.0289855072465" y="66.964285714285708"/>
+            <point key="canvasLocation" x="-203" y="789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="F2b-9w-Dwn">
