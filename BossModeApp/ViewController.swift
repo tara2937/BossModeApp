@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        showAlert(title: "Boss Mode Time!!", message: "Would you like to complete the daily check in?", handlerOK: {actionOkay in self.performSegue(withIdentifier: "activateBossMode", sender: nil)}, handlerCancel: {actionCancel in print("cancel")})
         // Do any additional setup after loading the view.
     }
 

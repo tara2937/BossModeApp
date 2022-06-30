@@ -16,6 +16,7 @@
 		BD3263B1286C966A00FABB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3263AF286C966A00FABB56 /* LaunchScreen.storyboard */; };
 		BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */; };
 		BD7284C2286E0DBA00B41E6C /* SleepTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */; };
+		BDA87C7D286E308D00365826 /* Extension + FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */; };
 		BDEF2081286DE69300BF37B8 /* AddToReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */; };
 		BDEF2083286DE97500BF37B8 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2082286DE97500BF37B8 /* Reading.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		BD3263B2286C966A00FABB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToReadTableViewController.swift; sourceTree = "<group>"; };
 		BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerViewController.swift; sourceTree = "<group>"; };
+		BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + FirstViewController.swift"; sourceTree = "<group>"; };
 		BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToReadViewController.swift; sourceTree = "<group>"; };
 		BDEF2082286DE97500BF37B8 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +52,7 @@
 		BD326395286C966700FABB56 = {
 			isa = PBXGroup;
 			children = (
+				BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */,
 				BDEF2082286DE97500BF37B8 /* Reading.swift */,
 				BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */,
 				BD3263A0286C966700FABB56 /* BossModeApp */,
@@ -158,6 +161,7 @@
 				BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */,
 				BD3263AC286C966700FABB56 /* BossModeApp.xcdatamodeld in Sources */,
 				BD3263A2286C966700FABB56 /* AppDelegate.swift in Sources */,
+				BDA87C7D286E308D00365826 /* Extension + FirstViewController.swift in Sources */,
 				BD3263A4286C966700FABB56 /* SceneDelegate.swift in Sources */,
 				BD7284C2286E0DBA00B41E6C /* SleepTrackerViewController.swift in Sources */,
 				BDEF2081286DE69300BF37B8 /* AddToReadViewController.swift in Sources */,
