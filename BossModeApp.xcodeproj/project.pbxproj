@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611831055A19E7B92BA5F3F2 /* Pods_BossModeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5902328702257BA5C7AF8A /* Pods_BossModeApp.framework */; };
 		BD3263A2286C966700FABB56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263A1286C966700FABB56 /* AppDelegate.swift */; };
 		BD3263A4286C966700FABB56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263A3286C966700FABB56 /* SceneDelegate.swift */; };
 		BD3263A6286C966700FABB56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263A5286C966700FABB56 /* ViewController.swift */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B16B34C0012286BDDE3AA88 /* Pods-BossModeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BossModeApp.release.xcconfig"; path = "Target Support Files/Pods-BossModeApp/Pods-BossModeApp.release.xcconfig"; sourceTree = "<group>"; };
+		AF5902328702257BA5C7AF8A /* Pods_BossModeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BossModeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD32639E286C966700FABB56 /* BossModeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BossModeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3263A1286C966700FABB56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3263A3286C966700FABB56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + FirstViewController.swift"; sourceTree = "<group>"; };
 		BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToReadViewController.swift; sourceTree = "<group>"; };
 		BDEF2082286DE97500BF37B8 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
+		F223ED73243F6689046A564B /* Pods-BossModeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BossModeApp.debug.xcconfig"; path = "Target Support Files/Pods-BossModeApp/Pods-BossModeApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +47,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611831055A19E7B92BA5F3F2 /* Pods_BossModeApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDC33C81A2B5F0FBD36B2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5902328702257BA5C7AF8A /* Pods_BossModeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90A8D05E232CBBD0564DAA54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F223ED73243F6689046A564B /* Pods-BossModeApp.debug.xcconfig */,
+				1B16B34C0012286BDDE3AA88 /* Pods-BossModeApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BD326395286C966700FABB56 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +80,8 @@
 				BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */,
 				BD3263A0286C966700FABB56 /* BossModeApp */,
 				BD32639F286C966700FABB56 /* Products */,
+				90A8D05E232CBBD0564DAA54 /* Pods */,
+				3FDC33C81A2B5F0FBD36B2A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD3263B5286C966A00FABB56 /* Build configuration list for PBXNativeTarget "BossModeApp" */;
 			buildPhases = (
+				90CCEC5DB7390FA51FAF40CB /* [CP] Check Pods Manifest.lock */,
 				BD32639A286C966700FABB56 /* Sources */,
 				BD32639B286C966700FABB56 /* Frameworks */,
 				BD32639C286C966700FABB56 /* Resources */,
+				6046AE6F00D2582ED3D5F17F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +177,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6046AE6F00D2582ED3D5F17F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BossModeApp/Pods-BossModeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BossModeApp/Pods-BossModeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BossModeApp/Pods-BossModeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90CCEC5DB7390FA51FAF40CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BossModeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD32639A286C966700FABB56 /* Sources */ = {
@@ -306,6 +375,7 @@
 		};
 		BD3263B6286C966A00FABB56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F223ED73243F6689046A564B /* Pods-BossModeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +403,7 @@
 		};
 		BD3263B7286C966A00FABB56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B16B34C0012286BDDE3AA88 /* Pods-BossModeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
