@@ -18,6 +18,9 @@
 		BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */; };
 		BD7284C2286E0DBA00B41E6C /* SleepTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */; };
 		BDA87C7D286E308D00365826 /* Extension + FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */; };
+		BDA87C7F286E481600365826 /* AddToListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C7E286E481600365826 /* AddToListenViewController.swift */; };
+		BDA87C81286E483500365826 /* WantToListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C80286E483500365826 /* WantToListenTableViewController.swift */; };
+		BDA87C83286E48E000365826 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C82286E48E000365826 /* Song.swift */; };
 		BDEF2081286DE69300BF37B8 /* AddToReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */; };
 		BDEF2083286DE97500BF37B8 /* Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF2082286DE97500BF37B8 /* Reading.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +40,9 @@
 		BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToReadTableViewController.swift; sourceTree = "<group>"; };
 		BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerViewController.swift; sourceTree = "<group>"; };
 		BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + FirstViewController.swift"; sourceTree = "<group>"; };
+		BDA87C7E286E481600365826 /* AddToListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListenViewController.swift; sourceTree = "<group>"; };
+		BDA87C80286E483500365826 /* WantToListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToListenTableViewController.swift; sourceTree = "<group>"; };
+		BDA87C82286E48E000365826 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToReadViewController.swift; sourceTree = "<group>"; };
 		BDEF2082286DE97500BF37B8 /* Reading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading.swift; sourceTree = "<group>"; };
 		F223ED73243F6689046A564B /* Pods-BossModeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BossModeApp.debug.xcconfig"; path = "Target Support Files/Pods-BossModeApp/Pods-BossModeApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,13 +74,15 @@
 				F223ED73243F6689046A564B /* Pods-BossModeApp.debug.xcconfig */,
 				1B16B34C0012286BDDE3AA88 /* Pods-BossModeApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BD326395286C966700FABB56 = {
 			isa = PBXGroup;
 			children = (
+				BDA87C7E286E481600365826 /* AddToListenViewController.swift */,
+				BDA87C80286E483500365826 /* WantToListenTableViewController.swift */,
+				BDA87C82286E48E000365826 /* Song.swift */,
 				BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */,
 				BDEF2082286DE97500BF37B8 /* Reading.swift */,
 				BDEF2080286DE69300BF37B8 /* AddToReadViewController.swift */,
@@ -225,10 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA87C83286E48E000365826 /* Song.swift in Sources */,
 				BD3263A6286C966700FABB56 /* ViewController.swift in Sources */,
 				BDEF2083286DE97500BF37B8 /* Reading.swift in Sources */,
 				BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */,
+				BDA87C81286E483500365826 /* WantToListenTableViewController.swift in Sources */,
 				BD3263AC286C966700FABB56 /* BossModeApp.xcdatamodeld in Sources */,
+				BDA87C7F286E481600365826 /* AddToListenViewController.swift in Sources */,
 				BD3263A2286C966700FABB56 /* AppDelegate.swift in Sources */,
 				BDA87C7D286E308D00365826 /* Extension + FirstViewController.swift in Sources */,
 				BD3263A4286C966700FABB56 /* SceneDelegate.swift in Sources */,
