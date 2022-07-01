@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="TrackersViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -204,6 +204,9 @@
                                 <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
                                 <color key="baseForegroundColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                             </buttonConfiguration>
+                            <connections>
+                                <segue destination="kkl-1i-I52" kind="show" id="cJM-0q-u7d"/>
+                            </connections>
                         </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="qUC-eQ-nbr">
@@ -234,7 +237,7 @@
             <objects>
                 <viewController id="kkl-1i-I52" customClass="AddToListenViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JXY-R8-8Ch">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type in the song you would like to add!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0e-V0-Pwa">
@@ -253,15 +256,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyt-1F-70B">
-                                <rect key="frame" x="162" y="455" width="91" height="34"/>
+                                <rect key="frame" x="164" y="455" width="88" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="add book">
+                                <buttonConfiguration key="configuration" style="tinted" title="add song">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="addTapped2:" destination="kkl-1i-I52" eventType="touchUpInside" id="xEe-Jl-GI3"/>
-                                    <action selector="addTapped:" destination="kkl-1i-I52" eventType="touchUpInside" id="lsq-qH-xK2"/>
                                     <action selector="addTapped:" destination="h3g-q2-8af" eventType="touchUpInside" id="pGu-hR-uDT"/>
                                 </connections>
                             </button>
@@ -269,8 +271,8 @@
                         <viewLayoutGuide key="safeArea" id="LHp-ph-Ds6"/>
                         <color key="backgroundColor" red="0.96470588450000005" green="0.92941176889999999" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="4Qh-Hx-ZUH"/>
                     <connections>
-                        <outlet property="titleTextField" destination="jE9-rR-LSD" id="Pt9-qv-N6g"/>
                         <outlet property="titleTextField2" destination="jE9-rR-LSD" id="qbH-lV-RLC"/>
                     </connections>
                 </viewController>
