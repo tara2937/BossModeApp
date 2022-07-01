@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JOURNAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fym-Qr-LXY">
-                                <rect key="frame" x="132" y="46" width="146" height="41"/>
+                                <rect key="frame" x="61" y="44" width="146" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
                                 <nil key="textColor"/>
@@ -29,9 +29,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BossModeIcon (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Odo-nU-H5Q">
+                                <rect key="frame" x="229" y="30" width="140" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wag-lG-rkj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.9098039269" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLt-bc-zSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -408,7 +412,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYi-wj-CO0">
-                                <rect key="frame" x="46" y="157" width="327" height="137"/>
+                                <rect key="frame" x="44" y="156" width="319" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="7" height="5"/>
@@ -425,7 +429,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFf-78-JPc">
-                                <rect key="frame" x="46" y="548" width="327" height="137"/>
+                                <rect key="frame" x="46" y="451" width="317" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="7" height="5"/>
@@ -451,7 +455,7 @@
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-3k-u3D">
-                                <rect key="frame" x="46" y="353" width="327" height="137"/>
+                                <rect key="frame" x="46" y="294" width="317" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="7" height="5"/>
@@ -467,6 +471,22 @@
                                     <segue destination="M8w-BH-O8q" kind="show" id="ZrA-g3-hKJ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book-1" translatesAutoresizingMaskIntoConstraints="NO" id="g2U-eu-v4G">
+                                <rect key="frame" x="255" y="177" width="108" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musiclistening" translatesAutoresizingMaskIntoConstraints="NO" id="JlK-QP-eHd">
+                                <rect key="frame" x="259" y="311" width="104" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plane" translatesAutoresizingMaskIntoConstraints="NO" id="6Y9-Yf-Thm">
+                                <rect key="frame" x="229" y="461" width="134" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy boss" translatesAutoresizingMaskIntoConstraints="NO" id="I7e-c6-4Tg">
+                                <rect key="frame" x="162" y="592" width="268" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ePV-94-paJ"/>
                         <color key="backgroundColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -918,16 +938,20 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="694073" width="512" height="512"/>
-        <image name="base boss" width="1024" height="1024"/>
-        <image name="confused_nervous boss" width="1024" height="1024"/>
+        <image name="BossModeIcon (1)" width="921" height="427"/>
+        <image name="base boss" width="687" height="981"/>
+        <image name="book-1" width="422" height="359"/>
+        <image name="confused_nervous boss" width="673" height="981"/>
         <image name="gradient" width="1591" height="1115"/>
         <image name="gradient (1)" width="1593" height="1113"/>
         <image name="happy" width="100" height="100"/>
-        <image name="happy boss" width="1024" height="1024"/>
-        <image name="mad boss" width="1024" height="1024"/>
+        <image name="happy boss" width="723" height="981"/>
+        <image name="mad boss" width="939" height="981"/>
         <image name="megahappy" width="100" height="100"/>
         <image name="megasad" width="100" height="100"/>
         <image name="meh" width="100" height="100"/>
+        <image name="musiclistening" width="429" height="339"/>
+        <image name="plane" width="412" height="411"/>
         <image name="sad" width="100" height="100"/>
         <image name="snore" width="200" height="200"/>
         <systemColor name="systemBackgroundColor">
