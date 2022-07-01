@@ -424,23 +424,6 @@
                                     <segue destination="nIZ-I6-cvh" kind="show" id="Mfi-NJ-irE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-3k-u3D">
-                                <rect key="frame" x="46" y="345" width="327" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <size key="titleShadowOffset" width="7" height="5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="   song playlist">
-                                    <backgroundConfiguration key="background" image="gradient">
-                                        <color key="backgroundColor" red="0.7254902124" green="0.28627452250000002" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
-                                    <color key="baseForegroundColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="M8w-BH-O8q" kind="show" id="ZrA-g3-hKJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFf-78-JPc">
                                 <rect key="frame" x="46" y="548" width="327" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -467,6 +450,23 @@
                                 <color key="shadowColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="4" height="-1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-3k-u3D">
+                                <rect key="frame" x="46" y="353" width="327" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="7" height="5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="   song playlist">
+                                    <backgroundConfiguration key="background" image="gradient">
+                                        <color key="backgroundColor" red="0.7254902124" green="0.28627452250000002" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="M8w-BH-O8q" kind="show" id="ZrA-g3-hKJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ePV-94-paJ"/>
                         <color key="backgroundColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -856,7 +856,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="p6w-h7-z9D"/>
                     <connections>
-                        <outlet property="WantToListenTable" destination="AGw-xM-0cy" id="5mn-aa-OYI"/>
                         <outlet property="WantToVisitTable" destination="AGw-xM-0cy" id="jen-Qx-153"/>
                     </connections>
                 </tableViewController>
@@ -886,7 +885,6 @@
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="addTapped2:" destination="MkO-Zh-rYr" eventType="touchUpInside" id="Bcy-5Y-asV"/>
                                     <action selector="addTapped3:" destination="MkO-Zh-rYr" eventType="touchUpInside" id="RTk-UW-Bni"/>
                                     <action selector="addTapped:" destination="h3g-q2-8af" eventType="touchUpInside" id="FLc-eK-pq1"/>
                                 </connections>
@@ -906,7 +904,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="yRR-Uk-QMi"/>
                     <connections>
-                        <outlet property="titleTextField2" destination="jDM-eo-lZp" id="oPr-bH-20I"/>
                         <outlet property="titleTextField3" destination="jDM-eo-lZp" id="2QD-cc-yI5"/>
                     </connections>
                 </viewController>

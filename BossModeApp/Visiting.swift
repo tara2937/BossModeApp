@@ -8,5 +8,5 @@
 import UIKit
 
 class Visiting {
-    var name = "this is bad"
+    var name3 = "this is bad"
 }
