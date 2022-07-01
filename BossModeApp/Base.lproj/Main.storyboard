@@ -444,6 +444,9 @@
                         <color key="backgroundColor" red="0.95686274770000002" green="0.9098039269" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="d05-SZ-BfO"/>
+                    <connections>
+                        <segue destination="iAf-gv-JNB" kind="showDetail" identifier="activateBossMode" id="SEL-4G-OPs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qcq-eW-tcr" sceneMemberID="firstResponder"/>
             </objects>
@@ -506,7 +509,7 @@
             <objects>
                 <viewController id="iAf-gv-JNB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bPp-Gg-T08">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How motivated are you for the day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e32-zA-MXX">
