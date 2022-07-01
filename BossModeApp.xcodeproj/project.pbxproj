@@ -18,6 +18,7 @@
 		BD3263DE286C9F1200FABB56 /* WantToReadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */; };
 		BD7284C2286E0DBA00B41E6C /* SleepTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */; };
 		BD7284C4286F397300B41E6C /* TrackersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7284C3286F397300B41E6C /* TrackersViewController.swift */; };
+		BD7284E9286F440100B41E6C /* WaterTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7284E8286F440100B41E6C /* WaterTrackerViewController.swift */; };
 		BDA87C7D286E308D00365826 /* Extension + FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */; };
 		BDA87C7F286E481600365826 /* AddToListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C7E286E481600365826 /* AddToListenViewController.swift */; };
 		BDA87C81286E483500365826 /* WantToListenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA87C80286E483500365826 /* WantToListenTableViewController.swift */; };
@@ -41,6 +42,7 @@
 		BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToReadTableViewController.swift; sourceTree = "<group>"; };
 		BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerViewController.swift; sourceTree = "<group>"; };
 		BD7284C3286F397300B41E6C /* TrackersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackersViewController.swift; sourceTree = "<group>"; };
+		BD7284E8286F440100B41E6C /* WaterTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerViewController.swift; sourceTree = "<group>"; };
 		BDA87C7C286E308D00365826 /* Extension + FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + FirstViewController.swift"; sourceTree = "<group>"; };
 		BDA87C7E286E481600365826 /* AddToListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListenViewController.swift; sourceTree = "<group>"; };
 		BDA87C80286E483500365826 /* WantToListenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantToListenTableViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				BD7284C1286E0DBA00B41E6C /* SleepTrackerViewController.swift */,
 				BD3263DD286C9F1200FABB56 /* WantToReadTableViewController.swift */,
 				BD3263A7286C966700FABB56 /* Main.storyboard */,
+				BD7284E8286F440100B41E6C /* WaterTrackerViewController.swift */,
 				BD7284C3286F397300B41E6C /* TrackersViewController.swift */,
 				BD3263AD286C966A00FABB56 /* Assets.xcassets */,
 				BD3263AF286C966A00FABB56 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7284E9286F440100B41E6C /* WaterTrackerViewController.swift in Sources */,
 				BDA87C83286E48E000365826 /* Song.swift in Sources */,
 				BD3263A6286C966700FABB56 /* ViewController.swift in Sources */,
 				BD7284C4286F397300B41E6C /* TrackersViewController.swift in Sources */,

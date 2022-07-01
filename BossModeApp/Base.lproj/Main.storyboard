@@ -9,27 +9,74 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="GuN-hT-6DV">
+            <objects>
+                <viewController id="PA4-Um-SpH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b0J-vH-8Va">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JOURNAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fym-Qr-LXY">
+                                <rect key="frame" x="132" y="46" width="146" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Jot down notes, goals, or anything else here! " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vcw-3Z-aZj">
+                                <rect key="frame" x="39" y="127" width="336" height="681"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wag-lG-rkj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XLt-bc-zSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-881.15942028985512" y="-577.23214285714278"/>
+        </scene>
+        <!--Trackers View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TrackersViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="TrackersViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trackers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dS-NQ-a6f">
-                                <rect key="frame" x="128" y="20" width="158" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TRACKERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dS-NQ-a6f">
+                                <rect key="frame" x="109" y="44" width="197" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RfX-IO-dxY">
-                                <rect key="frame" x="120" y="162" width="166" height="130"/>
+                                <rect key="frame" x="70" y="162" width="274" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Sleep Tracker"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Sleep Tracker">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="euw-cr-uYa" kind="showDetail" id="ZgC-hu-que"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="confused_nervous boss" translatesAutoresizingMaskIntoConstraints="NO" id="2Ma-vR-Dnp">
+                                <rect key="frame" x="239" y="593" width="192" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O28-Sy-KLS">
+                                <rect key="frame" x="70" y="346" width="274" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Hydration Tracker">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Gna-76-cbC" kind="showDetail" id="r9K-eo-cs0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,10 +97,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sleep Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8P-yk-8vt">
-                                <rect key="frame" x="186" y="44" width="105" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SLEEP TRACKER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8P-yk-8vt">
+                                <rect key="frame" x="111" y="44" width="192" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -66,15 +113,17 @@
                                 <rect key="frame" x="237" y="201" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Submit"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Submit">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="btnButton:" destination="euw-cr-uYa" eventType="touchUpInside" id="ubc-m1-pqV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How much sleep did you get last night?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="054-Tk-z8c">
-                                <rect key="frame" x="57" y="149" width="299" height="21"/>
+                                <rect key="frame" x="55" y="149" width="303" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -399,10 +448,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLd-A2-Ikr">
-                                <rect key="frame" x="147" y="263" width="129" height="46"/>
+                                <rect key="frame" x="140" y="263" width="143" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="TRACKER">
+                                <buttonConfiguration key="configuration" style="filled" title="TRACKERS">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -415,13 +464,13 @@
                                 <rect key="frame" x="143" y="359" width="137" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="JOUNRAL">
+                                <buttonConfiguration key="configuration" style="filled" title="JOURNAL">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Msb-Pf-RpC" kind="show" id="MEZ-Fp-VP6"/>
+                                    <segue destination="PA4-Um-SpH" kind="showDetail" id="dRd-Eq-4U3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lk7-84-hJv">
@@ -455,25 +504,9 @@
             <point key="canvasLocation" x="-1994" y="67"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="T3V-k4-j5S">
-            <objects>
-                <viewController id="Msb-Pf-RpC" sceneMemberID="viewController">
-                    <textField key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="kFd-KP-ltn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                        <textInputTraits key="textInputTraits"/>
-                    </textField>
-                    <navigationItem key="navigationItem" id="ql9-hM-f41"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bb5-IF-SQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-997" y="100"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="SYo-9M-B4l">
             <objects>
-                <viewController id="l89-jk-O1F" customClass="ViewController" customModule="DesignBossMode" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l89-jk-O1F" customClass="ViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uUs-Rt-52q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -661,6 +694,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5o-mZ-Ztc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1559" y="2012"/>
+        </scene>
+        <!--Water Tracker View Controller-->
+        <scene sceneID="bWm-WL-wkM">
+            <objects>
+                <viewController id="Gna-76-cbC" customClass="WaterTrackerViewController" customModule="BossModeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SMV-yI-GEl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HYDRATION TRACKER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8X-eVA">
+                                <rect key="frame" x="70" y="44" width="274" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rIZ-rR-W39" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="51" y="315" width="312" height="415"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNh-AL-QKg">
+                                <rect key="frame" x="237" y="201" width="94" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Submit">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="11"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnButton2:" destination="Gna-76-cbC" eventType="touchUpInside" id="eC3-Yx-u2N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How many oz of water did you drink today? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8q-BV-0kI">
+                                <rect key="frame" x="33" y="149" width="348" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12K-fE-3U5" customClass="txtTextBoxTwo">
+                                <rect key="frame" x="82" y="200" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WA3-di-Mwb"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.9098039269" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="chtChart2" destination="rIZ-rR-W39" id="0vp-PQ-Gs1"/>
+                        <outlet property="txtTextBoxTwo" destination="12K-fE-3U5" id="ecI-T1-dAz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="24c-qf-diM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="-469"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
