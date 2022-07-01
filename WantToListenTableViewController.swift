@@ -16,12 +16,12 @@ class WantToListenTableViewController: UITableViewController {
     
     func createSong() -> [Song] {
 
-      let swift = Song()
-      swift.name = "This is where your songs will appear!"
+      let swift2 = Song()
+      swift2.name2 = "This is where your songs will appear!"
       
       // important is set to false by default
 
-      return [swift]
+      return [swift2]
     }
 
     
@@ -54,7 +54,7 @@ class WantToListenTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         let cell =
         tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath)
-        cell.textLabel?.text = items2[indexPath.row].name
+        cell.textLabel?.text = items2[indexPath.row].name2
         
         cell.textLabel?.textColor = .red
 
@@ -75,8 +75,8 @@ class WantToListenTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      if let addVC = segue.destination as? AddToListenViewController {
-        addVC.previousVC = self
+      if let addVC2 = segue.destination as? AddToListenViewController {
+        addVC2.previousVC2 = self
       }
     
     }

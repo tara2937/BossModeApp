@@ -9,7 +9,7 @@ import UIKit
 
 class AddToListenViewController: UIViewController {
 
-    var previousVC = WantToListenTableViewController()
+    var previousVC2 = WantToListenTableViewController()
     
     @IBOutlet weak var titleTextField2: UITextField!
     
@@ -20,14 +20,14 @@ class AddToListenViewController: UIViewController {
     }
     
     @IBAction func addTapped2(_ sender: Any) {
-        let values2 = Reading()
+        let values2 = Song()
 
-        if let titleText = titleTextField2.text {
-            values2.name = titleText
+        if let titleText2 = titleTextField2.text {
+            values2.name2 = titleText2
 
         }
-        previousVC.items2.append(values2)
-        previousVC.tableView.reloadData()
+        previousVC2.items2.append(values2)
+        previousVC2.tableView.reloadData()
         navigationController?.popViewController(animated: true)
     }
     

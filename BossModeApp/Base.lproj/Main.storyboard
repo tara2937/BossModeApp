@@ -260,6 +260,7 @@
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="addTapped2:" destination="kkl-1i-I52" eventType="touchUpInside" id="xEe-Jl-GI3"/>
                                     <action selector="addTapped:" destination="kkl-1i-I52" eventType="touchUpInside" id="lsq-qH-xK2"/>
                                     <action selector="addTapped:" destination="h3g-q2-8af" eventType="touchUpInside" id="pGu-hR-uDT"/>
                                 </connections>
@@ -270,6 +271,7 @@
                     </view>
                     <connections>
                         <outlet property="titleTextField" destination="jE9-rR-LSD" id="Pt9-qv-N6g"/>
+                        <outlet property="titleTextField2" destination="jE9-rR-LSD" id="qbH-lV-RLC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q6b-Fg-cv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -357,29 +359,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recreation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8Z-pN-4ju">
-                                <rect key="frame" x="93" y="14" width="228" height="60"/>
+                                <rect key="frame" x="86" y="20" width="243" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.35294117650000001" green="0.0" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" red="0.95686274510000002" green="0.35686274509999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="4" height="-1"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wj5-QE-PUP">
-                                <rect key="frame" x="93" y="605" width="224" height="62"/>
+                                <rect key="frame" x="52" y="136" width="314" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="book library">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="book library" titleAlignment="trailing">
+                                    <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="nIZ-I6-cvh" kind="show" id="yea-CV-szw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ys1-K5-Iop">
-                                <rect key="frame" x="126" y="693" width="166" height="62"/>
+                                <rect key="frame" x="52" y="315" width="314" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="song list">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="M8w-BH-O8q" kind="show" id="GdV-8z-19u"/>
@@ -387,7 +391,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ePV-94-paJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.90588235859999999" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="CfA-JQ-wsU"/>
                 </viewController>
@@ -418,11 +422,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLd-A2-Ikr">
-                                <rect key="frame" x="141" y="265" width="139" height="39"/>
+                                <rect key="frame" x="147" y="263" width="129" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="TRACKER">
-                                    <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -431,11 +435,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPh-4D-mGo">
-                                <rect key="frame" x="157" y="362" width="107" height="39"/>
+                                <rect key="frame" x="157" y="359" width="108" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GOALS">
-                                    <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -444,11 +448,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lk7-84-hJv">
-                                <rect key="frame" x="118" y="449" width="185" height="39"/>
+                                <rect key="frame" x="124" y="446" width="174" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="RECREATION">
-                                    <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>

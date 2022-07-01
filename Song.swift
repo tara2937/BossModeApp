@@ -9,5 +9,5 @@
 import UIKit
 
 class Song {
-    var name = "this is bad"
+    var name2 = "this is bad"
 }
