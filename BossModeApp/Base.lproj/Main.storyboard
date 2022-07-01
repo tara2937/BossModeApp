@@ -418,7 +418,7 @@
                                 <size key="titleShadowOffset" width="7" height="5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="   book library">
-                                    <backgroundConfiguration key="background" image="gradient">
+                                    <backgroundConfiguration key="background" image="gradient (2)">
                                         <color key="backgroundColor" red="0.7254902124" green="0.28627452250000002" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
@@ -435,7 +435,7 @@
                                 <size key="titleShadowOffset" width="7" height="5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="   travel list">
-                                    <backgroundConfiguration key="background" image="gradient">
+                                    <backgroundConfiguration key="background" image="gradient (2)">
                                         <color key="backgroundColor" red="0.7254902124" green="0.28627452250000002" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
@@ -461,7 +461,7 @@
                                 <size key="titleShadowOffset" width="7" height="5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="   song playlist">
-                                    <backgroundConfiguration key="background" image="gradient">
+                                    <backgroundConfiguration key="background" image="gradient (2)">
                                         <color key="backgroundColor" red="0.7254902124" green="0.28627452250000002" blue="0.20000001789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" name="Futura-MediumItalic" family="Futura" pointSize="30"/>
@@ -942,8 +942,8 @@
         <image name="base boss" width="687" height="981"/>
         <image name="book-1" width="422" height="359"/>
         <image name="confused_nervous boss" width="673" height="981"/>
-        <image name="gradient" width="1591" height="1115"/>
         <image name="gradient (1)" width="1593" height="1113"/>
+        <image name="gradient (2)" width="1592" height="1109"/>
         <image name="happy" width="100" height="100"/>
         <image name="happy boss" width="723" height="981"/>
         <image name="mad boss" width="939" height="981"/>
