@@ -410,14 +410,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPh-4D-mGo">
-                                <rect key="frame" x="105" y="359" width="213" height="46"/>
+                                <rect key="frame" x="143" y="359" width="137" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="DAILY CHECK IN">
+                                <buttonConfiguration key="configuration" style="filled" title="JOUNRAL">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                     <color key="baseForegroundColor" red="0.88235294819999999" green="0.39607840779999998" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.32156863810000003" green="0.043137259779999999" blue="0.02745098248" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Msb-Pf-RpC" kind="show" id="MEZ-Fp-VP6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lk7-84-hJv">
                                 <rect key="frame" x="124" y="446" width="174" height="46"/>
@@ -444,7 +447,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qcq-eW-tcr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-694.20289855072474" y="79.6875"/>
+            <point key="canvasLocation" x="-1994" y="67"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T3V-k4-j5S">
+            <objects>
+                <viewController id="Msb-Pf-RpC" sceneMemberID="viewController">
+                    <textField key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="kFd-KP-ltn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <navigationItem key="navigationItem" id="ql9-hM-f41"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bb5-IF-SQv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-997" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SYo-9M-B4l">
